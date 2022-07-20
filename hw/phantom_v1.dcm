@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP XC61
-D Microprocessor Reset (active-low) Circuit, SOT-23
-K reset supervisor
-$ENDCMP
-#
-#End Doc Library
