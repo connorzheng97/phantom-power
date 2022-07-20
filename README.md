@@ -1,5 +1,12 @@
 # What is this
+
+<img src="./docs/img/render.jpg" width="600" >
+
 This is a 3-AA-battery powered phantom power supply. It was intended for use with wireless microphone beltpacks to provide high quality 48V phantom power to large condenser microphones and enable them to be used wirelessly, or as a standalone unit. It's also suitable for DI boxes, small condenser microphones and anything requiring phantom power.
+
+<img src="./docs/img/IMG_20200419_125325.jpg" height="600" >
+
+<img src="./docs/img/IMG_20200419_134438.jpg" height="600" >
 
 This is a complete design with schematic, PCB and enclosure. Files are production-ready, with BOM. Design of this project begun in 2019 and final test was done on December of 2021. Batch production was planned but hasn't been carried out, as newer wireless microphone beltpacks has begun to incorporate built-in phantom power circuits (although usually not at full 48V), and COVID has had a major impact on touring industry.
 
@@ -13,19 +20,30 @@ This is a complete design with schematic, PCB and enclosure. Files are productio
 
 # The Design
 ## Overall Design
+
+<img src="./docs/img/IMG_20200419_131105.jpg" width="600" >
+
 A simple power supply box with XLR-in (connects to device requiring phantom power), XLR-out (no DC bias, connect to audio input of next stage), a power switch and a battery voltage indicator. The switch is partly recessed to avoid accidental operation. The colors of the battery indicator are ice-blue and orange, which are color-blind friendly. On the side of the box are 2 ears where you can thread in a hook-and-loop nylon cable tie to form a loop and strap the box to wireless beltpack and microphone stand or other fixation points.
 
 ## Schematic and PCB
-Schematic and PCB were done with KiCAD 5. A PDF version of the schematic is available for view under the `docs` folder.
+Schematic and PCB were done with KiCAD 5. A [PDF version of the schematic](./docs/phantom_v1.pdf) is available for view under the `docs` folder.
+
+<img src="./docs/img/sch.png" width="600" >
 
 Circuit consists of a simple boost converter with added 3-stage diode voltage multiplier, a high voltage LDO, and a 2-stage Darlington capacitance multiplier for lowest noise possible. Protection circuitry and battery voltage indication were also added. A P-MOS blocks reverse battery, followed by a PPTC resettable fuse and transient suppression.
 
 PCB is a normal 1.6mm 2-layer PCB.
 
+<img src="./docs/img/pcb.png" width="600" >
+
 ## Mechanical Design
 Enclosure design was done with Solidworks 2018. STEP and STL files are also provided in the `mech` folder. The design is mostly complete, and should be injection-molding ready, with no draft angle in design file. 
 
+<img src="./docs/img/mech.png" width="600" >
+
 The PCB is held down to the base part by boss from top part, which are held together by self-tapping screws. The holes in the bosses are through, which are also used to mount the battery holder. The front panel is held in place by groves on both large parts. The battery holder is an off-the-shelf one which can be bought on Taobao or AliExpress. XLR connectors are fixed to front panel with self-tapping screws.
+
+<img src="./docs/img/DSC_0407.jpg" width="600" >
 
 # Make Your Own
 You can fabricate the PCB and have it partly assembled by a PCB fab such as PCBWay(JDB PCB) or JLC-PCB. Solder only the common SMT parts at the fab, which I found to be the most cost-saving. A gerber file set is included in the `output` folder in the hardware design files. Other parts can be sourced from LCSC or another distributor. Hand soldering is mostly easy except the VSSOP LDO may be a little bit annoying. Alternative part number may be found in schematic.
@@ -43,6 +61,8 @@ A BOM for assembling can be found under the `docs` folder. A interactive BOM for
 6. Plug in battery XH2.54 plug
 7. Screw top and base part together with 4 ST3x12 screws
 8. Thread in hook-and-loop nylon cable tie
+
+<img src="./docs/img/DSC_0409.jpg" width="600" >
 
 # Use of This Repo
 This repo is licensed under CERN-OHL-W v2. In addition, consider buying me a drink if you like this design. You can credit back to this repo or my personal website if you wish.
