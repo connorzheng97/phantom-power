@@ -12,9 +12,11 @@ This is a complete design with schematic, PCB and enclosure. Files are productio
 
 # The Specs
 - Power Source: 3x AA Batteries, alkaline is recommended. Ni-Mh rechargeable can also be used.
-- Power Output: IEC 61938 48V
+- Battery Run Time: depends on load and actual battery capacity, 5 to 72 hours typically
+- Battery Indicator: yes, two LEDs for normal and low battery
+- Power Output: IEC 61938, 48VDC ±2V
 - Phantom Resistor: 6.81K
-- Current: up to 14mA at short-circuit
+- Current: up to about 14mA at short-circuit
 - Noise: < 100uVpp
 - EMI: not tested
 
