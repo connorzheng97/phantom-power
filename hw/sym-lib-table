@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name phantom_v1)(type Legacy)(uri ${KIPRJMOD}/phantom_v1.lib)(options "")(descr ""))
+  (lib (name phantom_v1-rescue)(type Legacy)(uri ${KIPRJMOD}/phantom_v1-rescue.lib)(options "")(descr ""))
+)
