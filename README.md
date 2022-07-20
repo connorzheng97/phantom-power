@@ -43,7 +43,7 @@ Enclosure design was done with Solidworks 2018. STEP and STL files are also prov
 
 <img src="./docs/img/mech.png" width="600" >
 
-The PCB is held down to the base part by boss from top part, which are held together by self-tapping screws. The holes in the bosses are through, which are also used to mount the battery holder. The front panel is held in place by groves on both large parts. The battery holder is an off-the-shelf one which can be bought on Taobao or AliExpress. XLR connectors are fixed to front panel with self-tapping screws.
+The PCB is held down to the base part by boss from top part, which are held down to base part by self-tapping screws. The holes in the bosses are through, which are also used to mount the battery holder. The front panel is held in place by groves on both large parts. The battery holder is an off-the-shelf one which can be bought on Taobao or AliExpress. XLR connectors are fixed to front panel with self-tapping screws.
 
 <img src="./docs/img/DSC_0407.jpg" width="600" >
 
@@ -67,7 +67,7 @@ A BOM for assembling can be found under the `docs` folder. A interactive BOM for
 <img src="./docs/img/DSC_0409.jpg" width="600" >
 
 # Use of This Repo
-This repo is licensed under CERN-OHL-W v2. In addition, consider buying me a drink if you like this design. You can credit back to this repo or my personal website if you wish.
+This repo is licensed under CERN-OHL-W v2. In addition, consider buying me a drink if you like this design. You can credit back to my personal website as well if you wish.
 
 Copyright Ryan Zheng 2022. 
 
