@@ -69,8 +69,6 @@ A BOM for assembling can be found under the `docs` folder. A interactive BOM for
 # Use of This Repo
 This repo is licensed under CERN-OHL-W v2. In addition, consider buying me a drink if you like this design. You can credit back to my personal website as well if you wish.
 
-Copyright Ryan Zheng 2022. 
-
 This source describes Open Hardware and is licensed under the CERN-OHLW v2 
 
 You may redistribute and modify this documentation and make products using it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl). 
